@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/emilyberghen/kwee-ni#readme",
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "pug": "^2.0.3"
   }
 }
