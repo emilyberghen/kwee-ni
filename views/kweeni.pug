@@ -1,0 +1,34 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='UTF-8')
+    title Kweeni
+    link(rel='stylesheet', href='css/reset.css')
+    link(rel='stylesheet', href='css/style.css')
+    link(href='https://fonts.googleapis.com/css?family=Ultra', rel='stylesheet')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  body
+    nav
+      img#logo(src='images/logo.svg', alt='logo')
+      .right
+        strong Anneke Kodeur
+        span.logout Log uit
+        img.profile__img(src='images/user8.png', alt='profile picture')
+    header
+      h1
+        | Iets kweeni hoe moeilijk? 
+        br
+        |  Stel hier je vraag.
+      form(action='')
+        input(type='text', placeholder='Wat is expressjs?')
+        button#btn nu vragen
+    main
+      h2 Hot topics!
+      article
+        .likes
+          img(src='images/icon-cool.svg', alt='logo')
+          p.amount x16
+        p Wat is het verschil tussen let, var en const?
+        strong Yves Dehipster
+        img.profile__img(src='images/user1.png', alt='profile')
+      a.more(href='#') Toon 10 extra topics
